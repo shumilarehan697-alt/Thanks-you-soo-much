@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You Miss Ammara Sheikh</title>
+    <style>
+        /* Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+        }
+
+        a { text-decoration: none; color: inherit; }
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #1f1f1f, #333333);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255,204,0,0.3);
+            margin-bottom: 40px;
+        }
+
+        .hero img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 4px solid #ffcc00;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #ffcc00;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 600px;
+        }
+
+        .heart {
+            color: red;
+            font-size: 24px;
+            animation: beat 1s infinite;
+        }
+
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        /* About Section */
+        .about {
+            background-color: #1a1a1a;
+            padding: 50px 20px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+        }
+
+        .about h2 {
+            color: #ffcc00;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            text-align: center;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* Message Section */
+        .message {
+            padding: 50px 20px;
+            text-align: center;
+            background: #2c2c2c;
+            border-radius: 15px;
+            margin-bottom: 40px;
+        }
+
+        .message h2 {
+            color: #ffcc00;
+            margin-bottom: 20px;
+        }
+
+        .message p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #aaaaaa;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media(max-width:768px){
+            .hero h1 { font-size: 2rem; }
+            .hero p, .about p, .message p { font-size: 1rem; }
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #ffcc00;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            background-color: #e6b800;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="./Thank You Miss Ammara_files/teacher.jpg" alt="Miss Ammara Sheikh">
+            <h1>Thank You Miss Ammara Sheikh</h1>
+            <p>You are an amazing teacher! Thank you for guiding me and helping me stay away from wrong paths. Your support means a lot to me. <span class="heart">♥</span></p>
+            <button onclick="alert(&#39;You are appreciated!&#39;)">Send Love 💛</button>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <h2>About Miss Ammara Sheikh</h2>
+            <p>Miss Ammara Sheikh is a dedicated and inspiring teacher who always guides her students towards the right path. Her patience, wisdom, and encouragement have a lasting impact on everyone she teaches. She believes in nurturing not just knowledge but also good character.</p>
+        </section>
+
+        <!-- Message Section -->
+        <section class="message">
+            <h2>My Personal Message</h2>
+            <p>Dear Miss Ammara Sheikh, I want to express my heartfelt gratitude for always supporting me and showing me the right path. Your teachings have inspired me to become a better person. Thank you for your kindness, patience, and guidance. <span class="heart">♥</span></p>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Made with ❤️ by Your Student
+    </footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+<section class="praise">
+    <div class="container">
+        <h2>Why Miss Ammara Sheikh is Special</h2>
+        <p>Miss Ammara Sheikh is not just a teacher, she is a mentor, guide, and a source of inspiration for all her students.</p>
+        <ul>
+            <li>She has an amazing ability to make difficult concepts simple and easy to understand.</li>
+            <li>Her kindness and patience create a positive learning environment for everyone.</li>
+            <li>She motivates students to be disciplined, responsible, and confident.</li>
+            <li>Her guidance has helped me stay on the right path and avoid mistakes.</li>
+            <li>She genuinely cares about her students’ success and personal growth.</li>
+            <li>Her encouragement and support make learning enjoyable and meaningful.</li>
+            <li>She is a role model not only academically but also morally and ethically.</li>
+        </ul>
+        <p>We are truly blessed to have a teacher like Miss Ammara Sheikh! <span class="heart">♥</span></p>
+    </div>
+</section>
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You Miss Ammara Sheikh</title>
+    <style>
+        /* Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+        }
+
+        a { text-decoration: none; color: inherit; }
+
+        /* Container */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #1f1f1f, #333333);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255,204,0,0.3);
+            margin-bottom: 40px;
+        }
+
+        .hero img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 4px solid #ffcc00;
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #ffcc00;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 600px;
+        }
+
+        .heart {
+            color: red;
+            font-size: 24px;
+            animation: beat 1s infinite;
+        }
+
+        @keyframes beat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+        }
+
+        /* Section Styling */
+        section {
+            padding: 50px 20px;
+            border-radius: 15px;
+            margin-bottom: 40px;
+        }
+
+        /* About Section */
+        .about {
+            background-color: #1a1a1a;
+        }
+
+        .about h2 {
+            color: #ffcc00;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            text-align: center;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* Message Section */
+        .message {
+            background: #2c2c2c;
+            text-align: center;
+        }
+
+        .message h2 {
+            color: #ffcc00;
+            margin-bottom: 20px;
+        }
+
+        .message p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        /* Praise Section */
+        .praise {
+            background-color: #1f1f1f;
+            color: #f0f0f0;
+        }
+
+        .praise h2 {
+            color: #ffcc00;
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 2rem;
+        }
+
+        .praise ul {
+            max-width: 800px;
+            margin: auto;
+            padding-left: 20px;
+            list-style-type: square;
+        }
+
+        .praise ul li {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #aaaaaa;
+            font-size: 0.9rem;
+        }
+
+        /* Button */
+        button {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #ffcc00;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            background-color: #e6b800;
+        }
+
+        /* Responsive */
+        @media(max-width:768px){
+            .hero h1 { font-size: 2rem; }
+            .hero p, .about p, .message p, .praise ul li { font-size: 1rem; }
+        }
+    </style>
+
+
+
+    <div class="container">
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="./Thank You Miss Ammara_files/teacher.jpg" alt="Miss Ammara Sheikh">
+            <h1>Thank You Miss Ammara Sheikh</h1>
+            <p>You are an amazing teacher! Thank you for guiding me and helping me stay away from wrong paths. Your support means a lot to me. <span class="heart">♥</span></p>
+            <button onclick="alert(&#39;You are appreciated!&#39;)">Send Love 💛</button>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <h2>About Miss Ammara Sheikh</h2>
+            <p>Miss Ammara Sheikh is a dedicated and inspiring teacher who always guides her students towards the right path. Her patience, wisdom, and encouragement have a lasting impact on everyone she teaches. She believes in nurturing not just knowledge but also good character.</p>
+        </section>
+
+        <!-- Message Section -->
+        <section class="message">
+            <h2>My Personal Message</h2>
+            <p>Dear Miss Ammara Sheikh, I want to express my heartfelt gratitude for always supporting me and showing me the right path. Your teachings have inspired me to become a better person. Thank you for your kindness, patience, and guidance. <span class="heart">♥</span></p>
+        </section>
+
+        <!-- Praise Section -->
+        <section class="praise">
+            <h2>Why Miss Ammara Sheikh is Special</h2>
+            <ul>
+                <li>She has an amazing ability to make difficult concepts simple and easy to understand.</li>
+                <li>Her kindness and patience create a positive learning environment for everyone.</li>
+                <li>She motivates students to be disciplined, responsible, and confident.</li>
+                <li>Her guidance has helped me stay on the right path and avoid mistakes.</li>
+                <li>She genuinely cares about her students’ success and personal growth.</li>
+                <li>Her encouragement and support make learning enjoyable and meaningful.</li>
+                <li>She is a role model not only academically but also morally and ethically.</li>
+                <li>Her positive energy and dedication inspire everyone around her.</li>
+                <li>She celebrates every student’s success and encourages them to do better.</li>
+            </ul>
+            <p>We are truly blessed to have a teacher like Miss Ammara Sheikh! <span class="heart">♥</span></p>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Made with ❤️ by Your Student
+    </footer>
+
+<!-- Code injected--></body></html>
